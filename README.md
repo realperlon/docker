@@ -5,7 +5,7 @@ This docker container checks out and compiles the two [variation-service](https:
 
 Tomcat is running at port 8080, as such it needs to enabled when running the image.
 
-```sudo docker run -d -p 8080:8080 -p 8009:8009 -td variation-andreas```
+```sudo docker run -d -p 8080:8080 -p 8009:8009 -td realperlon/variation-andreas```
 
 after this, the two apps will be available from:
 
@@ -17,7 +17,10 @@ and
 
 ```http://localhost:8888/variation-frontend/```
 
-# Comments
+## Comments
 This is the first time I am using docker containers, as such it is quite possible that there is a better way of doing this.
+
+## Possible next steps
+* Figure out how to make the create docker image smaller
 
 
