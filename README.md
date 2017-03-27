@@ -10,13 +10,13 @@ Tomcat is running at port 8080, as such it needs to enabled when running the ima
 
 after this, the two apps will be available from:
 
-```http://localhost:8888/variation-service/``` 
+```http://localhost:8080/variation-service/``` 
 
 (note: it contains the beginnings of a web-frontend that documents the REST backend).
 
 and
 
-```http://localhost:8888/variation-frontend/```
+```http://localhost:8080/variation-frontend/```
 
 ## Memory requirements
 For the container to run well, it requires Docker to have at least 4G of RAM available.
