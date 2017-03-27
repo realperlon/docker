@@ -19,7 +19,7 @@ and
 ```http://localhost:8888/variation-frontend/```
 
 ## Memory requirements
-For the container to run well, it requires Docker to have at least 3.5 G of RAM available.
+For the container to run well, it requires Docker to have at least 4G of RAM available.
 
 ## Comments
 This is the first time I am using docker containers, as such it is quite possible that there is a better way of doing this.
